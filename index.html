@@ -3,322 +3,172 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohamed Safwan | Portfolio</title>
-
-  <!-- BOX ICONS -->
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
-  <!-- TYPED JS -->
-  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-
-  <style>
-    html { scroll-behavior: smooth; }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background: #000;
-      color: #fff;
-    }
-
-    /* HEADER */
-    header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      padding: 20px 10%;
-      background: #000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-    }
-
-    .logo {
-      font-size: 24px;
-      color: #0ef;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a {
-      margin-left: 25px;
-      color: #fff;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: #0ef;
-    }
-
-    /* SECTIONS */
-    section {
-      padding: 120px 10%;
-    }
-
-    /* HOME */
-    .home {
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    .home h1 {
-      font-size: 52px;
-    }
-
-    .home span {
-      color: #0ef;
-    }
-
-    .home p {
-      margin-top: 10px;
-    }
-
-    .home-sci a {
-      display: inline-flex;
-      width: 40px;
-      height: 40px;
-      border: 2px solid #0ef;
-      border-radius: 50%;
-      align-items: center;
-      justify-content: center;
-      color: #0ef;
-      margin: 15px 8px;
-      transition: 0.3s;
-    }
-
-    .home-sci a:hover {
-      background: #0ef;
-      color: #000;
-    }
-
-    /* ABOUT */
-    .about {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-      align-items: center;
-    }
-
-    .about img {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    /* SKILLS */
-    .skills {
-      text-align: center;
-    }
-
-    .skill {
-      margin: 20px auto;
-    }
-
-    .bar {
-      width: 300px;
-      height: 15px;
-      background: #333;
-      border-radius: 10px;
-      overflow: hidden;
-      margin: auto;
-    }
-
-    .bar span {
-      display: block;
-      height: 100%;
-      background: #0ef;
-    }
-
-    .html { width: 90%; }
-    .css { width: 85%; }
-    .js { width: 70%; }
-    .java { width: 65%; }
-    .python { width: 75%; }
-
-    /* SERVICES */
-    .services {
-      text-align: center;
-    }
-
-    .service-box {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .card {
-      background: #111;
-      padding: 30px;
-      width: 250px;
-      border-radius: 10px;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      background: #0ef;
-      color: #000;
-    }
-
-    /* CONTACT */
-    .contact {
-      text-align: center;
-    }
-
-    .contact form {
-      max-width: 400px;
-      margin: auto;
-    }
-
-    input, textarea, button {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border: none;
-      background: #111;
-      color: #fff;
-      border-radius: 5px;
-    }
-
-    button {
-      background: #0ef;
-      color: #000;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    button:hover {
-      box-shadow: 0 0 12px #0ef;
-    }
-
-    /* FOOTER */
-    footer {
-      background: #111;
-      text-align: center;
-      padding: 20px;
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-      .about {
-        grid-template-columns: 1fr;
-        text-align: center;
-      }
-    }
-  </style>
+  <meta name="description" content="Portfolio of Mohammed Mispaqus Safwan, IT Support and Python Developer." />
+  <title>Mohammed Mispaqus Safwan | IT Support &amp; Python Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="stylee.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">MS<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+      </div>
+      <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-<header>
-  <a class="logo">Portfolio</a>
-  <nav>
-    </a>
-    </a>
-    </a>
-    </a>
-    </a>
-  </nav>
-</header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1>Mohammed Mispaqus<br /><span>Safwan</span></h1>
+        <p class="hero-role">IT Support <span>&amp;</span> Python Developer</p>
+        <p class="hero-summary">I help people solve technology problems and build practical, user-focused applications. My experience spans IT support, Python-based tools, and responsive web development.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="mailto:mohammadsafwanudren@gmail.com">Get in touch</a>
+        </div>
+        <div class="hero-contact">
+          <a href="mailto:mohammadsafwanudren@gmail.com">mohammadsafwanudren@gmail.com</a>
+          <span aria-hidden="true">·</span>
+          <a href="tel:+918925397288">+91 89253 97288</a>
+          <span aria-hidden="true">·</span>
+          <span>Bengaluru, Karnataka</span>
+        </div>
+      </div>
+      <div class="hero-decoration" aria-hidden="true"><span>MS</span></div>
+    </section>
 
-<section class="home" id="home">
-  <div>
-    <h3>Hello, it's me</h3>
-    <h1>Mohamed Safwan</h1>
-    <h2>I am a <span class="typing"></span></h2>
-    <p>Web Developer Fresher passionate about responsive websites.</p>
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>People-first support.<br /><span>Practical technology.</span></h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-copy">B.Sc. IT graduate with hands-on experience at Sonovision in IT support and Python-related application work. Comfortable handling Jira tickets, troubleshooting user issues, setting up systems, and supporting applications. I enjoy making technology easier to use—whether that means resolving a support request or improving a web experience.</p>
+          <div class="about-facts">
+            <div class="fact"><span class="fact-number">01</span><div><strong>IT Support</strong><p>Jira, troubleshooting &amp; user assistance</p></div></div>
+            <div class="fact"><span class="fact-number">02</span><div><strong>Application Support</strong><p>Launchpad, Moodle &amp; workflow automation</p></div></div>
+            <div class="fact"><span class="fact-number">03</span><div><strong>Web Development</strong><p>Responsive interfaces and web projects</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="home-sci">
-      <a href="#"><i class='bx bxl-instagram'></i></a>
-      <a href="#"><i class='bx bxl-linkedin'></i></a>
-      <a href="mailto:mohammadsafwanudren@gmail.com"><i class='bx bxl-gmail'></i></a>
-      <a href="https://wa.me/918925397288"><i class='bx bxl-whatsapp'></i></a>
-    </div>
-  </div>
-</section>
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I BRING</p>
+          <h2>Skills &amp; capabilities</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-index">01</span><h3>IT Support</h3><p>Jira ticket handling, user issue troubleshooting, operating system installation, and software license retrieval.</p></article>
+          <article class="skill-card"><span class="skill-index">02</span><h3>Systems &amp; Directory</h3><p>Active Directory (AD), Windows support, and everyday desktop support tasks.</p></article>
+          <article class="skill-card"><span class="skill-index">03</span><h3>Development &amp; Automation</h3><p>Python, Power Automate, HTML, CSS, JavaScript, and Visual Studio Code.</p></article>
+          <article class="skill-card"><span class="skill-index">04</span><h3>Applications &amp; Documentation</h3><p>Launchpad application support, Moodle setup, and Confluence.</p></article>
+        </div>
+      </div>
+    </section>
 
-<section class="about" id="about">
-  <img src="imagesss.jpeg" alt="Profile Image">
-  <div>
-    <h2>About Me</h2>
-    <p>
-      Web Developer Fresher with interest in front‑end and back‑end technologies.
-      Passionate about learning and building responsive websites.
-    </p>
-  </div>
-</section>
+    <section class="section section-muted" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHERE I'VE WORKED</p>
+          <h2>Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-topline"><div><h3>IT Support &amp; Python Developer</h3><p class="company">Sonovision</p></div><span class="date-label">9 months</span></div>
+            <ul>
+              <li>Handled Jira tickets, troubleshooting and resolving reported user issues.</li>
+              <li>Supported users with Active Directory and Windows-related tasks.</li>
+              <li>Installed operating systems and helped retrieve software license information.</li>
+              <li>Worked on Launchpad, a Python-based application/tool related to the aerospace domain.</li>
+              <li>Set up Moodle and troubleshot application issues.</li>
+              <li>Used Power Automate for workflow automation tasks.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-topline"><div><h3>Web Developer Intern</h3><p class="company">ilife Technology <span>·</span> Tiruchirappalli</p></div><span class="date-label">Feb 2025 — Apr 2025</span></div>
+            <ul>
+              <li>Worked on a Tally website and a constructor website.</li>
+              <li>Supported front-end design and responsive layout debugging using HTML, CSS, and JavaScript.</li>
+              <li>Set up local Apache and MySQL testing environments to check web modules, forms, and database connectivity.</li>
+            </ul>
+            <div class="inline-links">
+              <a href="https://codinish.github.io/azees-smart-tally/" target="_blank" rel="noopener noreferrer">Tally website <span aria-hidden="true">↗</span></a>
+              <a href="http://codinish.github.io/fazlan-builders/" target="_blank" rel="noopener noreferrer">Constructor website <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<section class="skills" id="skills">
-  <h2>My Skills</h2>
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects &amp; application work</h2>
+        </div>
+        <div class="projects-list">
+          <article class="project-row"><span class="project-number">01</span><div><h3>Launchpad <span>— Python Application</span></h3><p>Supported a Python-based application/tool related to the aerospace domain.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+          <article class="project-row"><span class="project-number">02</span><div><h3>Moodle <span>— Application Setup</span></h3><p>Set up the Moodle application and helped troubleshoot application issues.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+          <article class="project-row"><span class="project-number">03</span><div><h3>Power Automate <span>— Workflow Automation</span></h3><p>Used Power Automate to support workflow automation tasks.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+          <article class="project-row"><span class="project-number">04</span><div><h3>Portfolio Constructor <span>— Web Application</span></h3><p>Portfolio website project.</p></div><a class="project-arrow" href="https://codinish.github.io/PortFolio/" target="_blank" rel="noopener noreferrer" aria-label="Visit Portfolio Constructor">↗</a></article>
+          <article class="project-row"><span class="project-number">05</span><div><h3>Python Billing Software</h3><p>Python-based billing software project.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        </div>
+      </div>
+    </section>
 
-  <div class="skill">HTML
-    <div class="bar"><span class="html"></span></div>
-  </div>
+    <section class="section section-muted" id="education">
+      <div class="container education-grid">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">EDUCATION</p>
+            <h2>My foundation</h2>
+          </div>
+          <article class="education-card">
+            <span class="education-icon" aria-hidden="true">B.Sc.</span>
+            <div><h3>Bachelor of Science in Information Technology</h3><p>Jamal Mohamed College of Arts &amp; Science</p><span class="education-meta">B.Sc. IT <span>·</span> Graduated 2025</span></div>
+          </article>
+        </div>
+        <aside class="additional-info">
+          <p class="eyebrow">A FEW MORE DETAILS</p>
+          <h3>Beyond the work</h3>
+          <div class="detail-row"><span>Languages</span><strong>English, Tamil</strong></div>
+          <div class="detail-row"><span>Availability</span><strong>Immediate</strong></div>
+          <div class="detail-row"><span>Based in</span><strong>Bengaluru, Karnataka</strong></div>
+        </aside>
+      </div>
+    </section>
 
-  <div class="skill">CSS
-    <div class="bar"><span class="css"></span></div>
-  </div>
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an opportunity<br />or a project in mind?</h2>
+        <p>I’m open to IT Support and Python Developer opportunities. I’d be glad to hear from you.</p>
+        <a class="button button-primary" href="mailto:mohammadsafwanudren@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+        <div class="contact-details">
+          <a href="tel:+918925397288">+91 89253 97288</a>
+          <span aria-hidden="true">·</span>
+          <a href="mailto:mohammadsafwanudren@gmail.com">mohammadsafwanudren@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <div class="skill">JavaScript
-    <div class="bar"><span class="js"></span></div>
-  </div>
-
-  <div class="skill">Java
-    <div class="bar"><span class="java"></span></div>
-  </div>
-
-  <div class="skill">Python
-    <div class="bar"><span class="python"></span></div>
-  </div>
-</section>
-
-<section class="services" id="services">
-  <h2>Services</h2>
-  <div class="service-box">
-    <div class="card">Web Development</div>
-    <div class="card">Web Design</div>
-    <div class="card">Responsive Design</div>
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <h2>Contact Me</h2>
-  <form id="contactForm">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
-
-<footer>
-  <p>© 2025 Mohamed Safwan. All Rights Reserved.</p>
-</footer>
-
-<script>
-  new Typed(".typing", {
-    strings: ["Web Developer", "Web Designer"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true
-  });
-
-  document.getElementById("contactForm")
-    .addEventListener("submit", function(e) {
-      e.preventDefault();
-      alert("✅ Message sent successfully!");
-      this.reset();
-    });
-</script>
-
+  <footer class="site-footer">
+    <div class="container footer-content"><a class="brand" href="#home">MS<span>.</span></a><p>© 2025 Mohammed Mispaqus Safwan. All rights reserved.</p><a href="#home">Back to top ↑</a></div>
+  </footer>
 </body>
 </html>
